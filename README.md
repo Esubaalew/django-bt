@@ -1,5 +1,5 @@
 # Python Telegram Bot Vercel
-Telegram bot using based on https://github.com/python-telegram-bot/python-telegram-bot
+A template for deploying python-telegram-bot bots with django 
 
 ### Environment Variables
 ```
