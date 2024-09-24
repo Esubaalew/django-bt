@@ -38,6 +38,10 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
+        .get-started:hover {
+            background-color: #4169e1;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
         .features {
             margin: 40px 0;
             font-size: 1.1em;
@@ -60,6 +64,25 @@
             color: #fff;
             text-decoration: underline;
         }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .card h2 {
+            color: #4682b4;
+        }
+        .card p {
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -78,7 +101,7 @@
             </ul>
         </div>
         
-        <div class="documentation">
+        <div class="card">
             <h2>Documentation</h2>
             <p>For detailed instructions on installation and usage, check out the <a href="https://github.com/Esubaalew/django-bt/tree/main" style="color: #4682b4;">GitHub repository</a>.</p>
         </div>
